@@ -5,7 +5,7 @@
  *
  * Description:Printting program
  *
- * Return:Always 0 (Success)
+ * Return:Always 1 (Success)
  *
 */
 
