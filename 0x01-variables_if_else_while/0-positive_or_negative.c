@@ -20,9 +20,9 @@ int main(void)
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
-		printf("%d is 0\n", n);
+		printf("%d is zero\n", n);
 	else
-		printf("%d is negtive\n", n);
+		printf("%d is negative\n", n);
 	/* your code goes there */
 	return (0);
 }
