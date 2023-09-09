@@ -13,11 +13,11 @@ int main(void)
 {
 	int n1, n;
 
-	for (n1 = 0; n1 <= 99; n1++)
+	for (n1 = 0; n1 < 100; n1++)
 	{
-		for (n = 0; n <= 99; n++)
+		for (n = 0; n < 100; n++)
 		{
-			if (n < n1)
+			if (n1 < n)
 			{
 				putchar((n1 / 10) + 48);
 				putchar((n1 % 10) + 48);
