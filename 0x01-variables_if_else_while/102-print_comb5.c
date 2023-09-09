@@ -20,11 +20,11 @@ int main(void)
 		{
 			if (n != n1)
 			{
-				putchar((n1 / 10 + 48));
-				putchar((n1 % 10 + 48));
+				putchar((n1 / 10) + 48);
+				putchar((n1 % 10) + 48);
 				putchar(' ');
-				putchar((n / 10 + 48));
-				putchar((n % 10 + 48));
+				putchar((n / 10) + 48);
+				putchar((n % 10) + 48);
 				if  (n1 != 98 || n != 99)
 				{
 					putchar(',');
