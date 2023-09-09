@@ -15,10 +15,9 @@ int main(void)
 
 	for (n1 = 0; n1 <= 99; n1++)
 	{
-		n = n1;
 		for (n = 0; n <= 99; n++)
 		{
-			if (n != n1)
+			if (n < n1)
 			{
 				putchar((n1 / 10) + 48);
 				putchar((n1 % 10) + 48);
