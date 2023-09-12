@@ -1,17 +1,20 @@
+#include <unistd.h>
 #include "main.h"
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- * Description:C programm use printf function
- *
- * Return:Always 0 (Success)
- *
-*/
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	int ch;
+	
+	for (ch = 97; ch <= 122; ch++)
+		putchar(ch);
+	putchar('\n');
 }
