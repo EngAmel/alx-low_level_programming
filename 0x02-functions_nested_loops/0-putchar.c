@@ -1,4 +1,4 @@
-#include<main.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -12,9 +12,9 @@
 int main(void)
 {
 	char myput[] = "_putchar";
-	int ch ;
+	int ch;
 
-	for(ch = 0; ch <= 7; ch++)
+	for (ch = 0; ch <= 7; ch++)
 	{
 		_putchar(myput[ch]);
 	}
