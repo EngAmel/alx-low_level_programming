@@ -1,8 +1,8 @@
 #include"main.h"
 
 /**
- * print_sign - print last digit
- *print_last_digit
+ * print_last_digit - print last digit
+ *
  * @n:number input
  * Return: return ld lastdigit
 */
