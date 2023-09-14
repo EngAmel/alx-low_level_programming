@@ -11,23 +11,24 @@ void print_times_table(int n)
 	if (n > 0 && n < 15)
 	{
 		for (i = 0; i <= n; i++)
-	{
-		for (j = 0; j <= n; j++)
 		{
-			multi = i * j;
-			printf("%i", multi);
-			if (j != n)
+			printf("0");
+			for (j = 0; j <= n; j++)
 			{
-				printf(",");
-				if (multi / 10 == 0)
-					printf("   ");
-				else if (multi / 100 == 0)
-					printf("  ");
-				else if (multi / 1000 == 0)
-					printf(" ");
+				multi = i * j;
+				if (j <= n)
+				{
+					printf(",");
+					if (multi >= 0 && multi <= 9)
+						printf("   ");
+					else if (multi >= 10 && multi <= 99)
+						printf("  ");
+					else if (multi >= 100 && multi <= 999)
+						printf(" ");
+				}
+				printf("%i", multi);
 			}
+			printf("\n");
 		}
-		printf("\n");
-	}
 	}
 }
