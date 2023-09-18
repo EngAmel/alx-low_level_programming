@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * reset_to_98- reset 98
+ * swap_int- swap pointers
  *@a:pointer ineed.
  *@b:pointer .
  *
