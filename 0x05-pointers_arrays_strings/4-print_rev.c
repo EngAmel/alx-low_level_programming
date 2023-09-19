@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_print_rev - print rev
+ *print_rev - print rev
  * @s: pointer
  */
 
@@ -18,5 +18,4 @@ void print_rev(char *s)
 		_putchar(s[j]);
 	}
 	_putchar('\n');
-	
 }
