@@ -4,7 +4,7 @@
  * _strncat- connect
  * @dest:first string
  * @src:second string
- *
+ * @n:number of limoit
  * Return: strng.
  */
 
