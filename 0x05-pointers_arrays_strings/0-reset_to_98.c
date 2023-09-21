@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * reset_to_98- reset 98
- *@n: pointer
+ * reset_to_98 - reset 98
+ * @c:pointer
+ *
  * Return: nothing.
  */
 
