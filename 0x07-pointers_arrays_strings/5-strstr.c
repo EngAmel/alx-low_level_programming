@@ -7,6 +7,7 @@
  *
  * Return:string.
  */
+
 char *_strstr(char *haystack, char *needle)
 {
 	while (*haystack)
