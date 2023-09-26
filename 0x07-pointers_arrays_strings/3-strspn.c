@@ -1,4 +1,4 @@
-#include "main.h.h"
+#include "main.h"
 
 /**
  * _strspn - prints the consecutive caracters.
