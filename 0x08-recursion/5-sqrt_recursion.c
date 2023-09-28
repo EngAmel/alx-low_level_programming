@@ -27,5 +27,5 @@ int _calcolate_sqr(int sqr, int n)
 		return (-1);
 	if (sqr * sqr == n)
 		return (sqr);
-	_calcolate_sqr(sqr + 1, n);
+	_calcolate_sqr(sqr + 2, n);
 }
