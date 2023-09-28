@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion -calcolate sqrt in recursion
+ * _sqrt_recursion - calcolate sqr
+ * @n: number
  *
- * @n:number will calcolate its sqrt
- * Return: sqrt.
- */
+ * Return:square
+ **/
 
 int _sqrt_recursion(int n)
 {
@@ -15,7 +15,7 @@ int _sqrt_recursion(int n)
 /**
  * _calcolate_sqr- returns square root of a number
  * @n: number to calculate the square root of
- * @sqr:square of num
+ * @sqr: squar of n
  * Return: the resulting square root
  **/
 
@@ -27,5 +27,5 @@ int _calcolate_sqr(int sqr, int n)
 		return (-1);
 	if (sqr * sqr == n)
 		return (sqr);
-	_calcolate_sqr(sqr + 2, n);
+	_calcolate_sqr(sqr + 1, n);
 }
