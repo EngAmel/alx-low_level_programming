@@ -6,7 +6,7 @@
  * @c:element of array
  *
  * Return: the length
- * */
+ **/
 
 char *create_array(unsigned int size, char c)
 {
@@ -14,7 +14,7 @@ char *create_array(unsigned int size, char c)
 
 	if (size == 0 || x == 0)
 		return (0);
-	for (;size--;)
+	for (; size--; )
 		x[size] = c;
 	return (x);
 }
