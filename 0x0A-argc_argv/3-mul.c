@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
 	}
 	else
 	{
-		printf("missing args\n");
+		printf("Error\n");
 		return (1);
 	}
 	return (0);
