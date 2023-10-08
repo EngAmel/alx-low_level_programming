@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
@@ -8,7 +9,8 @@
  * Return:Always 0 (Success)
  **/
 
-int main(int argc __atribute__((unused)), char *argv[])
+int main(int argc __atribute__((unused)), char const *argv[])
 {
 	printf("%s \n", argv[argc - 1]);
+	return (0);
 }
