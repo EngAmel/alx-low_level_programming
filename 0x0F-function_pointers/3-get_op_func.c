@@ -2,8 +2,8 @@
 
 /**
  * *get_op_func - function give operation
- * @a:input1
- * @b:input2
+ * @s:input1
+ *
  * Return: int
  **/
 
@@ -18,6 +18,7 @@ int (*get_op_func(char *s))(int, int)
 		{NULL, NULL}
 	};
 	int i = 0;
+
 	while (i < 5)
 	{
 		if (s && s[0] == ops[i].op[0] && !s[1])
