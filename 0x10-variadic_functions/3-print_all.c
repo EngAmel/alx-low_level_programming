@@ -17,7 +17,8 @@ void print_all(const char *format, ...)
 		if (i > 0)
 			printf(", ");
 		switch (format[i])
-		case 'c':
+		{
+			case 'c':
 			printf("%c", va_arg(args, int));
 			break;
 		case 'i':
@@ -31,6 +32,7 @@ void print_all(const char *format, ...)
 			break;
 		default:
 			break;
+		}
 		i++;
 	}
 	printf("\n");
