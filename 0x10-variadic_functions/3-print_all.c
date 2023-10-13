@@ -31,13 +31,16 @@ void print_all(const char *format, ...)
 		case 's':
 			x = va_arg(args, char *);
 
-			if (!*x)
+			if (x == NULL)
 				x = ("(nil)");
 			printf("%s", va_arg(args, char *));
 			break;
 		default:
 			break;
 		}
+		if ((format[i] == 'c' || format[i] == 'i' || format[i] == 'f' ||
+					format[i] == 's') && format[(i + 1)] != '\0')
+		       printf(", ");
 		i++;
 	}
 	printf("\n");
