@@ -9,9 +9,9 @@
 void print_all(const char *format, ...)
 {
 	va_list args;
-	va_start(args, format);
 	int i = 0;
-
+	
+	va_start(args, format);
 	while (format[i] != '\0')
 	{
 		if (i > 0)
