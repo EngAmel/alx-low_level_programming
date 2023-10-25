@@ -2,7 +2,7 @@
 
 /**
  * *add_nodeint - function that prints all the elements of a list_t listint
- * @*h:header
+ * @head:header
  * @n:inpuut
  * Return: h
  *
