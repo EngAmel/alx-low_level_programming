@@ -1,20 +1,25 @@
 #include "lists.h"
 
 /**
- *  * free_listint2 - function that frees list_t listint
- *   * @head:header
- *    *
- *     **/
+ * pop_listint - function that frees list_t listint
+ * @head:header
+ *
+ * Return: data
+ *
+ **/
 int pop_listint(listint_t **head)
 {
-		listint_t *t;
+	listint_t *t;
+	int data;
 
-			while (*head)
-					{
-								t = (*head)->next;
-										free(*head);
-												*head  = t;
-													}
-				*head = NULL;
+	if (*head == NULL)
+		return (0);
+
+	t = *head;
+	data = (*head)->n;
+	*head  = (*head)->next;
+	free(t);
+
+	return (data);
 
 }
